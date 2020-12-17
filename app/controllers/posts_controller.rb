@@ -18,6 +18,6 @@ class PostsController < ApplicationController
     end
 
     item = Post.find(params[:id])
-    render json: { post: item }#checked.jsにJSONデータを返却
+    render json: { post: item }#checked.jsにJSONデータを返却（レスポンス）
   end
 end
