@@ -27,6 +27,7 @@ function memo() {
       list.insertAdjacentHTML("afterend", HTML);
       formText.value = "";
     };
+    // submitボタンの本来の機能（指定URLへのリダイレクト）を止める
     e.preventDefault();
   });
 }
